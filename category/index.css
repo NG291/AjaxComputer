@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Thay đổi màu nền sang xám sáng */
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #343a40; /* Màu xám đậm cho tiêu đề */
+}
+
+form {
+    background-color: #ffffff; /* Giữ màu trắng cho biểu mẫu */
+    border-radius: 10px; /* Bo góc nhiều hơn */
+    padding: 30px; /* Thêm padding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Tăng bóng đổ */
+    margin-bottom: 20px;
+    width: 50%; /* Giảm độ rộng biểu mẫu */
+    transition: all 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+form:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15); /* Bóng đổ lớn hơn khi hover */
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+input[type="text"], input[type="date"], input[type="number"], select {
+    padding: 12px; /* Thêm padding để dễ sử dụng */
+    margin: 10px 0;
+    width: calc(100% - 24px); /* Tính toán để cân bằng với padding */
+    border: 1px solid #ced4da; /* Sử dụng màu xám nhẹ hơn */
+    border-radius: 6px; /* Bo góc nhiều hơn */
+    transition: border-color 0.3s; /* Thêm hiệu ứng chuyển động */
+}
+
+input[type="text"]:focus, input[type="date"]:focus, input[type="number"]:focus, select:focus {
+    border-color: #007bff; /* Màu viền khi focus */
+}
+
+button {
+    background-color: #007bff; /* Màu chính cho nút */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Thêm padding cho nút */
+    border-radius: 6px; /* Bo góc nhiều hơn */
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s; /* Thêm hiệu ứng chuyển động */
+}
+
+button:hover {
+    background-color: #0056b3; /* Màu khi hover */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #dee2e6; /* Sử dụng màu xám sáng hơn */
+}
+
+th, td {
+    padding: 15px; /* Thêm padding cho ô */
+    text-align: left;
+    background-color: #ffffff; /* Giữ màu trắng cho ô */
+}
+
+th {
+    background-color: #343a40; /* Màu xám đậm cho tiêu đề cột */
+    color: white;
+}
+
+td button {
+    padding: 6px 12px; /* Điều chỉnh padding cho nút trong ô */
+    margin-right: 5px;
+    background-color: #17a2b8; /* Màu cho nút trong ô */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #138496; /* Màu khi hover */
+}
+
+#navigation {
+    margin-bottom: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 12px 18px; /* Thêm padding cho liên kết */
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Thêm hiệu ứng chuyển động */
+}
+
+#navigation a:hover {
+    background-color: #0056b3; /* Màu khi hover */
+}
